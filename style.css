@@ -376,4 +376,15 @@ background-position: bottom center;
     .ctaContent {
         left: 30%;
         top: 30%;}
+        .practiceApp{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .ctaContent {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
 }
