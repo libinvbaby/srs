@@ -316,3 +316,48 @@ background-position: bottom center;
     right: 0;
     font-size: 50px;
 }
+@media only screen and (max-width: 768px){
+    .call-button{
+        display: none;
+    }
+    .feature-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .feature-box::after{
+        content: "";
+        display: none;      
+    }
+    .ctcTitle {
+        background: #fafafa;
+        position: absolute;
+        padding: 20px;
+        right: 10%;
+        top: 20%;
+        border-radius: 20px;
+    }
+    .system-image{
+        margin-bottom:100px
+    }
+    .right-side-image{
+        display: none;
+    }
+    .blog-image img{
+        width: 100%;
+    }
+    .left-text {
+        top: 0;
+        left: 20px;
+        text-align: left;
+    }
+    .right-text {
+        bottom: 0;
+        right: 0;
+        text-align: left;
+    }
+    .img-patient{
+        padding:100px 50px;
+    }
+}
