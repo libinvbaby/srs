@@ -223,6 +223,7 @@ background-position: bottom center;
     top: 50px;
 }
 .footer-counter{
+    height: 50vh;
     background-image: url(./images/footer-overlay-bg\ copy.png);
     background-size:cover;
     background-position: center;
@@ -386,5 +387,9 @@ background-position: bottom center;
             justify-content: center;
             align-items: center;
             flex-direction: column;
+        }
+        .footer-counter{
+            height: 70vh;
+
         }
 }
