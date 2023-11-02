@@ -140,7 +140,7 @@ li{
 }
 
 .cta-two{
-    height:50vh;
+    height:80vh;
     background-image: url(./images/freedentalbackground.png);
     background-size: cover;
     position: relative;
@@ -391,5 +391,12 @@ background-position: bottom center;
         .footer-counter{
             height: 70vh;
 
+        }
+        .cta-two{
+            height:auto;
+            background-image: url(./images/freedentalbackground.png);
+            background-size: cover;
+            position: relative;
+            overflow-y: hidden;
         }
 }
