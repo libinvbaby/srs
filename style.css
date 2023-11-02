@@ -70,7 +70,7 @@ body{
 .practiceApp{
     background-image: url(./images/ctc-first.png);
     background-size: cover;
-    height: 50vh;
+    height:55vh;
     position: relative;
 }
 .ctcTitle{
@@ -186,7 +186,6 @@ li{
 }
 
 .appointment{
-    height: 69vh;
     background-image: url(./images/appointment-reminders.png);
     background-size: cover;
 background-position: bottom center;
