@@ -367,4 +367,13 @@ background-position: bottom center;
         right: 0px;
         width: 100px;
     }
+    .img-two {
+        display: none;
+    }
+    .img-three {
+        display: none;
+    }
+    .ctaContent {
+        left: 30%;
+        top: 30%;}
 }
